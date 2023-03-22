@@ -23,4 +23,4 @@ window.setInterval(function(){
 	
 	treepunchClick(axes);
 	
-}, 1000);
+}, 10);
