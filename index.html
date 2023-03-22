@@ -1,10 +1,17 @@
-<link rel="stylesheet" type="text/css" href="interface.css" />
-<body>
-
-<script type="text/javascript" src="main.js"></script>
-
-<span id="kills">kills</span>
-
-<button>onClick="enemyClick(1)"</button>
-
-</body>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="interface.css" />
+	</head>
+	<body>
+		<button onclick="enemyClick(1)">Click Me!</button>
+		<br />
+		Kills: <span id="kills">0</span>
+		<br />
+		<button onclick="buySword()">Buy Sword</button>
+		<br />
+		Swords: <span id="swords">0</span>
+		<br />
+		Sword Cost: <span id="swordCost">10</span>
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>
