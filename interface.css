@@ -1,9 +1,10 @@
-body{
+body {
   background-color: black;
 }
 
 button {
   display: inline-block;
+  text-decoration-color: black;
   border: 1;
   margin: 0;
   padding: 0;
