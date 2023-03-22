@@ -1,10 +1,10 @@
 button {
   display: inline-block;
-  border: none;
+  border: 1;
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS';
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 1rem;
   line-height: 1;
-  background: transparent;
+  background: black;
 }
