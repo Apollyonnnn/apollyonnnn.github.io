@@ -9,11 +9,11 @@ var swords = 0;
 
 function buySword(){
     var swordCost = Math.floor(10 * Math.pow(1.1,swords));     //works out the cost of this sword
-    if(cookies >= swordCost){                                   //checks that the player can afford the sword
+    if(kills >= swordCost){                                   //checks that the player can afford the sword
         swords = swords + 1;                                   //increases number of swords
-    	kills = kills - swordCost;                          //removes the cookies spent
+    	kills = kills - swordCost;                          //removes the swords spent
         document.getElementById('swords').innerHTML = swords;  //updates the number of swords for the user
-        document.getElementById('kills').innerHTML = cookies;  //updates the number of cookies for the user
+        document.getElementById('kills').innerHTML = kills;  //updates the number of swords for the user
     };
     var nextCost = Math.floor(10 * Math.pow(1.1,swords));       //works out the cost of the next sword
     document.getElementById('swordCost').innerHTML = nextCost;  //updates the sword cost for the user
